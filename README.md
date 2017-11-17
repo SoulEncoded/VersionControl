@@ -107,10 +107,8 @@ Steps:
 7. add your changes to the staging are by entering `git add awesome_code.js` or `git add .` to add all your changes.
 8. (Optional). `git status` again to see your changes in the staging area.
 9. `git commit -m "add console log to awesome_code file"`. Note by convention commit messages are present tense.
-10. create and checkout a new branch `git checkout -b new_branch`;
+10. create and checkout a new branch `git checkout -b new_branch`
 11. in your new branch open the `awesome_code.js` file and change the code to `console.log('new branch');`.
 12. Follow steps 7 - 9 and commit your changes with a new different commit message.
-13. Go back to your master branch. `git checkout master`;
+13. Go back to your master branch. `git checkout master`
 14. Merge your `new_branch` into the `master` branch with `git merge new_branch;`
-15. resolve merge conflicts by deleting the old `console.log('hello');`
-16. Save your file and follow steps 7 - 9 again and commit your changes.
