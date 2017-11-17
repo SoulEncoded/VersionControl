@@ -96,3 +96,5 @@ In this challenge do the following:
 With these steps you have gone through a major work flow using git.
 
 If you are stuck, you can view the solution in the solutions branch.
+
+![solutions](assets/solutions.png)
