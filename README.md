@@ -111,4 +111,6 @@ Steps:
 11. in your new branch open the `awesome_code.js` file and change the code to `console.log('new branch');`.
 12. Follow steps 7 - 9 and commit your changes with a new different commit message.
 13. Go back to your master branch. `git checkout master`
-14. Merge your `new_branch` into the `master` branch with `git merge new_branch;`
+14. Merge your new_branch into the master branch with `git merge new_branch`
+
+We will cover merge conflicts in a separate lessons
