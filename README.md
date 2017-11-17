@@ -94,3 +94,5 @@ In this challenge do the following:
 7. Resolve your merge conflicts and make one final commit with the changes from the merge.
 
 With these steps you have gone through a major work flow using git.
+
+If you are stuck, you can view the solution in the solutions branch.
