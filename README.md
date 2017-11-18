@@ -6,9 +6,9 @@ In the simplest form, version control is a way to keep record of changes to your
 ## Popular Version Controls
 There are many types of version controls. Here are a list of a few of the most popular
 
-- [Git](https://en.wikipedia.org/wiki/Git)
-- [SVN](https://en.wikipedia.org/wiki/Apache_Subversion)
-- [Mercurial](https://en.wikipedia.org/wiki/Mercurial)
+- [![Git](assets/git.png)](https://en.wikipedia.org/wiki/Git)
+- [![SVN](assets/svn.png)](https://en.wikipedia.org/wiki/Apache_Subversion)
+- [![Mercurial](assets/mercurial.jpeg)](https://en.wikipedia.org/wiki/Mercurial)
 
 Follow the links to learn more about the different version control options.
 
@@ -38,6 +38,9 @@ When working with git there are a few terminologies and concepts that you need t
 
 - **Staging**: For all changes that are made they will be either un-staged or staged. This means, that they are either ready to be committed or not yet ready to be committed
 - **Committed**: This is essentially saving the staged changes, but it also creates a node
+
+![staging](assets/stage.png)
+
 - **Nodes**: a node is a unique point in time in our git history.  
 
 a general work flow would be as follows:
@@ -49,6 +52,8 @@ Step 3: A engineer will commit those changes and thus creating a node in our his
 - **Branching**: The best way I can describe branching is with a multiverse example. Imagine a timeline where someone starts a alternate universe. Branching is essentially creating a new timeline in our git history.
 
 - **Merging**: Merging is used to merge two branches back into one branch. One note is that when you initialize git into your project, you create a default **master** branch.
+
+![nodes](assets/git-nodes.png)
 
 ### Most common commands
 `git init`: Initializes git control of your project.
