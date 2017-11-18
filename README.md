@@ -1,21 +1,21 @@
 # Version Control
 
 ## What is Version Control
-In the simplest form, version control is a way to keep records of the changes to your program overtime. It is a common way for software engineers work on projects incrementally.
+In the simplest form, version control is a way to keep record of changes to your program overtime. It is a common way for software engineers work on projects incrementally.
 
 ## Popular Version Controls
 There are many types of version controls. Here are a list of a few of the most popular
 
-- [Git](https://en.wikipedia.org/wiki/Git)
-- [SVN](https://en.wikipedia.org/wiki/Apache_Subversion)
-- [Mercurial](https://en.wikipedia.org/wiki/Mercurial)
+- [![Git](assets/git.png)](https://en.wikipedia.org/wiki/Git)
+- [![SVN](assets/svn.png)](https://en.wikipedia.org/wiki/Apache_Subversion)
+- [![Mercurial](assets/mercurial.jpeg)](https://en.wikipedia.org/wiki/Mercurial)
 
 Follow the links to learn more about the different version control options.
 
 For our Soul Encoded tutorials, we will be focusing on Git.
 
 ## The Problem And Solution
-Here is a simple example of what problem Git solves for software engineers.
+Here is a simple example of a problem that Git solves for software engineers.
 
 Step 1: A engineer writes and saves the code.
 Step 2: A engineer changes the code and saves over his previous changes
@@ -24,13 +24,13 @@ Step 3: A engineer realizes that he actually needs the changes that he saved ove
 If we did not have version control for this example we would not have access to the code that we saved over.
 So the first problem that Git solves for us is providing a **history**
 
-With Git, we can go back to the previous point we committed to our history.
+With Git, we can go back to the previous point we committed in our history.
 
 Another big problem that Git solves is dealing with collaborations between many engineers. Imagine for a moment if you and I started writing a essay together, and we are both working on the same section of the essay. Eventually we would need to **merge** our work together in a smart and precise way. Git solves this problem for us.
 
 ## Essentials
 
-In this section we will go over the bare essentials you need to work on Soul Encoded challenges.
+In this section we will go over the bare essentials you need to work on the Git Soul Encoded challenge.
 
 ### Terminologies and Concepts
 
@@ -38,18 +38,22 @@ When working with git there are a few terminologies and concepts that you need t
 
 - **Staging**: For all changes that are made they will be either un-staged or staged. This means, that they are either ready to be committed or not yet ready to be committed
 - **Committed**: This is essentially saving the staged changes, but it also creates a node
+
+![staging](assets/stage.png)
+
 - **Nodes**: a node is a unique point in time in our git history.  
 
-a general work flow would be as follows.
+a general work flow would be as follows:
 
 Step 1: A engineer writes and saves codes.
 Step 2: A engineer adds the saved changes to the staging area.
-Step 3: A engineer will commit does changes and thus creating a node in our history, this also clears the staging area.
+Step 3: A engineer will commit those changes and thus creating a node in our history, this also clears the staging area.
 
-- **Branching**: The best way I can describe branching is with a multiverse example. Imagine a timeline where someone starts a alternate universe. Branch is essentially creating a new universe in our git history.
+- **Branching**: The best way I can describe branching is with a multiverse example. Imagine a timeline where someone starts a alternate universe. Branching is essentially creating a new timeline in our git history.
 
-- **Merging**: Merging used to merge the two branches back into one branch. One note is that when you initialize git into your project, you create a default **master** branch.
+- **Merging**: Merging is used to merge two branches back into one branch. One note is that when you initialize git into your project, you create a default **master** branch.
 
+![nodes](assets/git-nodes.png)
 
 ### Most common commands
 `git init`: Initializes git control of your project.
@@ -69,6 +73,10 @@ Step 3: A engineer will commit does changes and thus creating a node in our hist
 `git merge`: Combines two branches into one.
 
 These are just some of the basics that you will need to complete the below challenge but feel free to dig through the [Official Documentations](https://git-scm.com/doc). A firm understanding of git is vital to your journal to become a software engineer.
+
+Note some git commands has flags e.g. `git commit -m "commit message here"` the `-m` stands for message and the `"commit message here"` is the string that will be saved as a message. You will need to figure out the flags and parameters to complete the below challenges.
+
+HINT: `git add`, `git checkout`, and `git merge` will need flags or parameters to use.
 
 ## Github vs Git
 So a lot of new engineers get confused by Git vs Github. We will go over Github in the next sections, but basically Github is a web based version control service that hosts your projects in a online repository.
