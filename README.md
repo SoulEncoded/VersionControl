@@ -10,9 +10,9 @@ There are many types of version controls. Here are a list of a few of the most p
 <!-- [![SVN](assets/svn.png)](https://en.wikipedia.org/wiki/Apache_Subversion) -->
 <!-- [![Mercurial](assets/mercurial.jpeg)](https://en.wikipedia.org/wiki/Mercurial) -->
 
-<a href="https://en.wikipedia.org/wiki/Git"><img src="assets/git.png" style="width: 100px; padding-right: 10px;" /></a>
-<a href="https://en.wikipedia.org/wiki/Apache_Subversion"><img src="assets/svn.png" style="width: 100px; padding-right: 10px;" /></a>
-<a href="https://en.wikipedia.org/wiki/Mercurial"><img src="assets/mercurial.jpeg" style="width: 100px; padding-right: 10px;" /></a>
+<a href="https://en.wikipedia.org/wiki/Git"><img src="assets/git.png" style="max-width: 100px; padding-right: 10px;" /></a>
+<a href="https://en.wikipedia.org/wiki/Apache_Subversion"><img src="assets/svn.png" style="max-width: 100px; padding-right: 10px;" /></a>
+<a href="https://en.wikipedia.org/wiki/Mercurial"><img src="assets/mercurial.jpeg" style="max-width: 100px; padding-right: 10px;" /></a>
 
 Follow the links to learn more about the different version control options.
 
@@ -43,7 +43,7 @@ When working with git there are a few terminologies and concepts that you need t
 - **Staging**: For all changes that are made they will be either un-staged or staged. This means, that they are either ready to be committed or not yet ready to be committed
 - **Committed**: This is essentially saving the staged changes, but it also creates a node
 
-<img src="assets/stage.png" style="width: 350px;"/>
+<img src="assets/stage.png" style="max-width: 350px;"/>
 
 - **Nodes**: a node is a unique point in time in our git history.  
 
