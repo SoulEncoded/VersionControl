@@ -114,6 +114,26 @@ In this challenge do the following:
 
 With these steps you have gone through a major work flow using git.
 
+## Solution
+
+Steps:
+
+1. Using Command Line create a new folder called `git_challenge` in your workspace.
+2. Change into the `git_challenge` directory initialize git control with `git init`.
+3. Using Command Line create a new file called `awesome_code.js`.
+5. Open the file `awesome_code.js` in your IDE and write `console.log('hello');`.
+6. (Optional). In your CLI type in `git status` to view your un-staged changes to the project.
+7. add your changes to the staging are by entering `git add awesome_code.js` or `git add .` to add all your changes.
+8. (Optional). `git status` again to see your changes in the staging area.
+9. `git commit -m "add console log to awesome_code file"`. Note by convention commit messages are present tense.
+10. create and checkout a new branch `git checkout -b new_branch`
+11. in your new branch open the `awesome_code.js` file and change the code to `console.log('new branch');`.
+12. Follow steps 7 - 9 and commit your changes with a new different commit message.
+13. Go back to your master branch. `git checkout master`
+14. Merge your new_branch into the master branch with `git merge new_branch`
+
+We will cover merge conflicts in a separate lessons
+
 ## Additional Resources
 - [Git Official Docs](https://git-scm.com/doc)
 - [Derek Banas Git tutorials](https://www.youtube.com/watch?v=r63f51ce84A)
