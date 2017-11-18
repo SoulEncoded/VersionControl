@@ -43,9 +43,6 @@ When working with git there are a few terminologies and concepts that you need t
 
 - **Staging**: For all changes that are made they will be either un-staged or staged. This means, that they are either ready to be committed or not yet ready to be committed
 - **Committed**: This is essentially saving the staged changes, but it also creates a node
-
-<img src="assets/stage.png" style="max-width: 350px;"/>
-
 - **Nodes**: a node is a unique point in time in our git history.  
 
 a general work flow would be as follows:
@@ -54,6 +51,8 @@ Steps:
 1. A engineer writes and saves codes.
 2. A engineer adds the saved changes to the staging area.
 3. A engineer will commit those changes and thus creating a node in our history, this also clears the staging area.
+
+<img src="assets/stage.png" style="width: 250px;"/>
 
 - **Branching**: The best way I can describe branching is with a multiverse example. Imagine a timeline where someone starts a alternate universe. Branching is essentially creating a new timeline in our git history.
 
