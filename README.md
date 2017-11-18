@@ -21,9 +21,10 @@ For our Soul Encoded tutorials, we will be focusing on Git.
 ## The Problem And Solution
 Here is a simple example of a problem that Git solves for software engineers.
 
-Step 1: A engineer writes and saves the code.
-Step 2: A engineer changes the code and saves over his previous changes
-Step 3: A engineer realizes that he actually needs the changes that he saved over.
+Steps
+1. A engineer writes and saves the code.
+2. A engineer changes the code and saves over his previous changes
+3. A engineer realizes that he actually needs the changes that he saved over.
 
 If we did not have version control for this example we would not have access to the code that we saved over.
 So the first problem that Git solves for us is providing a **history**
@@ -49,9 +50,10 @@ When working with git there are a few terminologies and concepts that you need t
 
 a general work flow would be as follows:
 
-Step 1: A engineer writes and saves codes.
-Step 2: A engineer adds the saved changes to the staging area.
-Step 3: A engineer will commit those changes and thus creating a node in our history, this also clears the staging area.
+Steps:
+1. A engineer writes and saves codes.
+2. A engineer adds the saved changes to the staging area.
+3. A engineer will commit those changes and thus creating a node in our history, this also clears the staging area.
 
 - **Branching**: The best way I can describe branching is with a multiverse example. Imagine a timeline where someone starts a alternate universe. Branching is essentially creating a new timeline in our git history.
 
