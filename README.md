@@ -6,9 +6,13 @@ In the simplest form, version control is a way to keep record of changes to your
 ## Popular Version Controls
 There are many types of version controls. Here are a list of a few of the most popular
 
-[![Git](assets/git.png =100x)](https://en.wikipedia.org/wiki/Git)
-[![SVN](assets/svn.png =100x)](https://en.wikipedia.org/wiki/Apache_Subversion)
-[![Mercurial](assets/mercurial.jpeg =100x)](https://en.wikipedia.org/wiki/Mercurial)
+<!-- [![Git](assets/git.png)](https://en.wikipedia.org/wiki/Git) -->
+<!-- [![SVN](assets/svn.png)](https://en.wikipedia.org/wiki/Apache_Subversion) -->
+<!-- [![Mercurial](assets/mercurial.jpeg)](https://en.wikipedia.org/wiki/Mercurial) -->
+
+<a href="https://en.wikipedia.org/wiki/Git"><img src="assets/git.png" style="width: 50px; /></a>
+<a href="https://en.wikipedia.org/wiki/Apache_Subversion"><img src="assets/svn.png" style="width: 50px; /></a>
+<a href="https://en.wikipedia.org/wiki/Mercurial"><img src="assets/mercurial.jpeg" style="width: 50px; /></a>
 
 Follow the links to learn more about the different version control options.
 
