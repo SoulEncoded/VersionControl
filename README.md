@@ -114,6 +114,9 @@ In this challenge do the following:
 
 With these steps you have gone through a major work flow using git.
 
+For solutions go to the top and check out the solutions branches
+![solutions](assets/solutions.png)
+
 ## Additional Resources
 - [Git Official Docs](https://git-scm.com/doc)
 - [Derek Banas Git tutorials](https://www.youtube.com/watch?v=r63f51ce84A)
