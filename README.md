@@ -1,5 +1,8 @@
 # Version Control
 
+Youtube Video Of Version Control
+<a href="https://www.youtube.com/watch?v=W7DxODMjt7E"><img src="https://img.youtube.com/vi/W7DxODMjt7E/0.jpg"/></a>
+
 ## What is Version Control
 In the simplest form, version control is a way to keep record of changes to your program overtime. It is a common way for software engineers work on projects incrementally.
 
